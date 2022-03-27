@@ -3,7 +3,7 @@ const ShowAlbum = ({albumInfo}) =>  {
       <>
         <div className="musik">
             <div className="imggg">
-                <img className="img2" src={albumInfo.album.images[0].url} alt=""/>
+                <img className="img2" src={albumInfo.album.images[0].url} alt="img" width="170" height="170"/>
             </div>
 
             <div className="album">

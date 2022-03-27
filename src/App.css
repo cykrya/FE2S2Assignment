@@ -86,12 +86,16 @@ a {
 
 .musik {
     display: block;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-    width: 58.13%;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    width: 250px;
     border: 8px solid #3a3a3a;
     padding: 30px;
     background-color: rgba(0, 0, 0, 1);
+    margin: auto;
 }
 
 .musik h3 {
@@ -216,4 +220,43 @@ a {
     content: "";
     clear: both;
     display: table;
+}
+
+tr {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    border: 3px solid #3a3a3a;
+    padding: 30px;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+td {
+    text-align: center;
+    border: 1px solid #3a3a3a;
+    padding: 0px 30px;
+}
+
+.TT {
+    font-weight: bold;
+    padding: 0px 30px;
+}
+
+.tabl {
+    text-align: center;
+}
+
+.teble {
+    padding: 0% 10%;
 }
