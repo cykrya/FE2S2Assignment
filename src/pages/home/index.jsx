@@ -10,19 +10,8 @@ const Home = () => {
             <h1>Dotify</h1>
         </div>
 
-        <div className="clearfix"><ShowAlbum albumInfo={albumInfo} /></div>
-        
-       
-        
-        <div style={{textAlign:'center'}}>
-            <button type="button" className="btn-track-info">Select</button>
-        </div>
-        <tr>
-          <td className="TT">Name</td>
-          <td className="TT">Artist </td>
-          <td className="TT">Album</td>
-        </tr> 
-        <ShowTable albummusicInfo={albummusicInfo}/>
+        {/* <div className="clearfix"><ShowAlbum albumInfo={albumInfo} /></div> */}
+        <div className="clearfix"><ShowTable albummusicInfo={albummusicInfo}/></div>
     </div>
   );
 };

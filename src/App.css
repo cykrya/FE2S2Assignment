@@ -96,6 +96,7 @@ a {
     padding: 30px;
     background-color: rgba(0, 0, 0, 1);
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .musik h3 {
@@ -259,4 +260,8 @@ td {
 
 .teble {
     padding: 0% 10%;
+}
+
+p {
+    color: white;
 }
